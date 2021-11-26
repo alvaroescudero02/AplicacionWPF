@@ -1,0 +1,24 @@
+﻿<Window x:Class="PantallaPrincipal.Registro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PantallaPrincipal"
+        mc:Ignorable="d"
+        Title="Registro" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="296" Stroke="Black" VerticalAlignment="Center" Width="574"/>
+        <Label Content="USUARIO:" HorizontalAlignment="Left" Margin="258,126,0,0" VerticalAlignment="Top" Height="30" Width="87" FontWeight="Bold" FontSize="16"/>
+        <Label Content="CONTRASEÑA:" HorizontalAlignment="Left" Margin="225,161,0,0" VerticalAlignment="Top" Height="30" Width="120" FontWeight="Bold" FontSize="16"/>
+        <Label Content="CAMBIAR CONTRASEÑA:" HorizontalAlignment="Left" Margin="145,196,0,0" VerticalAlignment="Top" Height="30" Width="200" FontWeight="Bold" FontSize="16"/>
+        <Label Content="CURSO:" HorizontalAlignment="Left" Margin="276,231,0,0" VerticalAlignment="Top" Height="30" Width="69" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="tx_usuario" HorizontalAlignment="Left" Margin="350,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Height="30" TextAlignment="Justify" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Margin="350,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Height="30" TextAlignment="Justify" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Margin="350,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Height="30" TextAlignment="Justify" FontSize="16"/>
+        <ComboBox HorizontalAlignment="Left" Margin="350,235,0,0" VerticalAlignment="Top" Width="242" ItemsSource="{Binding Path=Cursos}" SelectedIndex="0"/>
+        <CheckBox Content="Aceptas los Términos y Servicios" HorizontalAlignment="Left" Margin="350,279,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Volver" HorizontalAlignment="Left" Margin="239,321,0,0" VerticalAlignment="Top" Width="174" Click="Button_Click"/>
+        <Button Content="Registrarse" HorizontalAlignment="Left" Margin="418,321,0,0" VerticalAlignment="Top" Width="174" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

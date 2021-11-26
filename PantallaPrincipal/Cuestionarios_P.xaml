@@ -1,0 +1,40 @@
+﻿<Window x:Class="PantallaPrincipal.Cuestionarios_P"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PantallaPrincipal"
+        mc:Ignorable="d"
+        Title="Cuestionarios_P" Height="484" Width="562">
+    <Grid>
+        <Label Content="Esto es Primaria:" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha" HorizontalAlignment="Left" Margin="486,45,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="10,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="184,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="358,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="10,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Rectangle Height="177" Margin="185,266,209,0" Stroke="Black" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="358,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="44,102,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="218,102,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="392,102,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="44,284,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Height="100" Margin="218,284,242,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="392,284,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="1ºPrimaria" HorizontalAlignment="Left" Margin="44,0,0,0" VerticalAlignment="Center" Width="101" Click="Button_Click_4"/>
+        <Button Content="2ºPrimaria" HorizontalAlignment="Left" VerticalAlignment="Center" Width="101" Margin="218,0,0,0" Click="Button_Click_5"/>
+        <Button Content="3ºPrimaria" HorizontalAlignment="Left" Margin="392,0,0,0" VerticalAlignment="Center" Width="101" Click="Button_Click_6"/>
+        <Button Content="4ºPrimaria" HorizontalAlignment="Left" Margin="44,402,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_7"/>
+        <Button Content="5ºPrimaria" HorizontalAlignment="Left" Margin="218,402,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_8"/>
+        <Button Content="6ºPrimaria" HorizontalAlignment="Left" Margin="392,402,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_9"/>
+        <Menu Margin="0,0,0,397">
+            <Button Content="Usuario" Height="60" Click="Button_Click"/>
+            <MenuItem Header="Cursos">
+                <Button Content="Pantalla Principal" Click="Button_Click_1"/>
+                <Button Content="ESO" Click="Button_Click_2"/>
+                <Button Content="Bachillerato" Click="Button_Click_3"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

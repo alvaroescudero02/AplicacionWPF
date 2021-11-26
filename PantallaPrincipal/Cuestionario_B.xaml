@@ -1,0 +1,28 @@
+﻿<Window x:Class="PantallaPrincipal.Cuestionario_B"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PantallaPrincipal"
+        mc:Ignorable="d"
+        Title="Cuestionario_B" Height="285" Width="370">
+    <Grid>
+        <Label Content="Esto es Bachillerato:" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha" HorizontalAlignment="Left" Margin="298,42,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="10,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Rectangle HorizontalAlignment="Left" Height="177" Margin="184,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="48,91,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="218,91,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="1ºBachillerato" HorizontalAlignment="Left" Margin="48,212,0,0" VerticalAlignment="Top" Width="97" Click="Button_Click_4"/>
+        <Button Content="2ºBachillerato" HorizontalAlignment="Left" Margin="220,212,0,0" VerticalAlignment="Top" Width="97" Click="Button_Click_5"/>
+        <Menu Margin="0,0,0,227">
+            <Button Content="Perfil" Height="36" Click="Button_Click"/>
+            <MenuItem Header="Cursos">
+                <Button Content="Pantalla Principal" Click="Button_Click_1"/>
+                <Button Content="Primaria" Click="Button_Click_2"/>
+                <Button Content="ESO" Click="Button_Click_3"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

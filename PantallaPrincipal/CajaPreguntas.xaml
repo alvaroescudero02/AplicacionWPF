@@ -1,0 +1,18 @@
+﻿<Window x:Class="PantallaPrincipal.CajaPreguntas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PantallaPrincipal"
+        mc:Ignorable="d"
+        Title="CajaPreguntas" Height="408" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="207" Margin="0,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="780"/>
+        <Button Content="Respuesta1" HorizontalAlignment="Center" Margin="0,222,0,0" VerticalAlignment="Top" Width="780" Height="37" Click="Button_Click"/>
+        <Button Content="Respuesta2" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Width="780" Height="37" Click="Button_Click_1"/>
+        <Button Content="Respuesta3" HorizontalAlignment="Center" Margin="0,306,0,0" VerticalAlignment="Top" Width="780" Height="37" Click="Button_Click_2"/>
+        <Button Content="Respuesta4" HorizontalAlignment="Center" Margin="0,348,0,0" VerticalAlignment="Top" Width="780" Height="37" Click="Button_Click_3"/>
+        <Label Content="Pregunta y Foto" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="748" Height="169" FontSize="20"/>
+
+    </Grid>
+</Window>
